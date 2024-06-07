@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*MAIN*/
+.nombre{
+    display: block;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid rgb(231, 231, 231);
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.correo{
+    display: block;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid rgb(231, 231, 231);
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.contraseña{
+    display: block;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid rgb(231, 231, 231);
+    margin: 20px auto;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.reptcontraseña{
+    display: block;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid rgb(231, 231, 231);
+    margin: 20px auto;
+    margin-top: 5px;
+    border-radius: 5px;
+}   
+
+.btnIniciar{
+    display: block;
+    padding: 8px;
+    width: 100px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin: 20px auto;
+}
+
+.btnRegistrar{
+    display: block;
+    padding: 8px;
+    width: 100px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin: 20px auto;
+}
+
+.btnBorrar{
+    display: block;
+    padding: 8px;
+    width: 100px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin: 20px auto;
+}
+

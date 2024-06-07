@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250);
+}
+#img-logo{
+    width: 100px;
+}
+
+#img-inicioSesion{
+    width: 30px;
+    margin-right: 50px;
+}
+
+#imgcarro{
+    width: 50px;
+    margin-right: 152px;
+    margin-bottom: 35px;
+}
+.dropdown-menu{
+    display: none;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+/*Contenedor de inicion de sesion*/
+.user_container{
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+    display: grid;
+    grid-template-areas: "title img";
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+#user_icon{
+    position: absolute;
+    width: 30px;
+    display: block;
+    right: 50px;
+    top: 20px;
+}
+
+#close_icon {
+    position: absolute;
+    top: 24px;
+    right: 50px;
+    z-index: 1000;
+}
+
+#close_icon img {
+    width: 20px;
+}
+
+/*Desplegable de logo de incio de sesion*/
+.dropdown2{
+    position: absolute;
+    background-color: #eee;
+    width: 15%;
+    height: 10em;
+    right: 47px;
+    top: 0;
+    bottom: 0;
+    padding: 1em;
+    border-radius: 23px;
+}
+
+.dropdown_link{
+    list-style: none;
+    padding-top: 11px;
+    padding-bottom: 6px;
+}
+
+.dropdown_text{
+    list-style: none;
+    padding-top: 11px;
+    padding-bottom: 6px;
+}
+
+.dropdown_link a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dropdown_link:hover{
+    background-color: #1eb5c9;
+}
+
+.dropdown_link:hover a{
+    color: white;
+}
+.item{
+    text-align: center;
+    padding: 20px;
+}
+
+/*MAIN*/
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 65%;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.txtTotal{
+    font-size: 18pt;
+}
+
+.campoTotal{
+    text-align: right;
+    font-weight: bold;
+}
+
+.btnComprar{
+    width: 30%;
+    height: 10%;
+    border-radius: 5px;
+    font-size: 14pt;
+    background-color: rgb(11, 185, 11);
+    border:rgb(11, 185, 11);
+    color: white;
+    margin-top: 20px;
+}
+
+#txtdescuento{
+    color: green;
+    font-weight: bold;
+}
+#txtoriginal{
+    color: #888;
+    text-decoration: line-through;
+
+}
+.txtAplicar{
+    text-align: right;
+}
+.contenedorCantidad{
+    display: flex;
+    align-items: center;
+}
+.inputNumber{
+    width: 40px;
+    background-color: rgb(250, 250, 250);
+    border: rgb(250, 250, 250);
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.btnSimbolo{
+    padding: 5px;
+    font-size: 30pt;
+}
+.btn-green{
+    color: green;
+}
+.btn-red{
+    color: red;
+}
+
+/*POPUP*/
+.popup {
+    display: none;
+    position: fixed;
+    /*z-index: 1;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*overflow: auto;*/
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.close {
+    color: rgba(247, 35, 35, 0.884);
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*PIE DE PAGINA*/
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: white;
+
+}
+footer p{
+    margin: 0;
+}
